@@ -304,7 +304,7 @@ header.sticky ul li a
   }
   
   .title-black {
-    color: #263238;
+    color: #1f292e;
   }
   
   @media all and (max-width: 500px) {
@@ -316,8 +316,6 @@ header.sticky ul li a
 
   .accordion {
     position: relative;
-    top: 20%;
-    left: 13%;
     max-width: 1000px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -379,7 +377,7 @@ header.sticky ul li a
   .className
   {
     text-decoration: none;
-    color: black;
+    color: #1f292e;
   }
 
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
@@ -480,3 +478,4 @@ header.sticky ul li a
       line-height: 1.8;
     }
   }
+
