@@ -253,17 +253,21 @@ header.sticky ul li a {
 
 .accordion {
   position: relative;
+  margin-left: 50%;
   max-width: 1000px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   overflow: hidden;
   font-family: "Quicksand", sans-serif;
   background: #008fd0;
+  margin: 0px 100px;
+  
 }
 
 .accordion__label,
 .accordion__content {
   padding: 14px 20px;
+  margin: 0px 100px;
 }
 
 .accordion__label {
@@ -273,10 +277,14 @@ header.sticky ul li a {
   cursor: pointer;
   position: relative;
   transition: background 0.1s;
+  margin: 0px 100px;
 }
 
 .accordion__label:hover {
   background: rgba(0, 0, 0, 0.1);
+  margin: 0px 100px;
+  box-shadow: 5px 5px 30px 15px rgba(31, 31, 31, 0.151),
+    -5px -5px 30px 15px rgba(27, 27, 27, 0.116);
 }
 
 .accordion__label::after {
@@ -290,6 +298,7 @@ header.sticky ul li a {
   background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
   background-size: contain;
   transition: transform 0.4s;
+  margin: 0px 100px;
 }
 
 .accordion__content {
@@ -297,18 +306,22 @@ header.sticky ul li a {
   line-height: 1.6;
   font-size: 0.85em;
   display: none;
+  margin: 0px 100px;
 }
 
 .accordion__input {
   display: none;
+  margin: 0px 100px;
 }
 
 .accordion__input:checked ~ .accordion__content {
   display: block;
+  margin: 0px 100px;
 }
 
 .accordion__input:checked ~ .accordion__label::after {
   transform: translateY(-50%) rotate(0.5turn);
+  margin: 0px 100px;
 }
 
 .className {
